@@ -40,7 +40,6 @@ public class Length implements Comparable<Length> {
 
 	@Override
 	public int compareTo(Length o) {
-		// TODO Auto-generated method stub
 		if(this.unit.getValue() == o.unit.getValue()) {
 			return Float.compare(this.amount, o.amount);
 		}else {
